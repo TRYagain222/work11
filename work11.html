@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вкладені блоки</title>
+    <style>
+        .outer-block {
+            border: 2px solid #333;
+            background-color: #f0f0f0;
+            padding: 20px;
+            text-align: center;
+            margin: 20px;
+        }
+
+        .inner-block {
+            border: 2px solid #666;
+            background-color: #ccc;
+            padding: 15px;
+            text-align: center;
+            margin: 15px;
+        }
+
+        .nested-block {
+            border: 2px solid #999;
+            background-color: #aaa;
+            padding: 10px;
+            text-align: center;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="outer-block">
+        Зовнішній блок
+        <div class="inner-block">
+            Внутрішній блок
+            <div class="nested-block">
+                Вкладений блок
+            </div>
+        </div>
+    </div>
+
+    <div class="outer-block">
+        Інший зовнішній блок
+        <div class="inner-block">
+            Інший внутрішній блок
+            <div class="nested-block">
+                Інший вкладений блок
+            </div>
+        </div>
+    </div>
+</body>
+</html>
